@@ -3,12 +3,17 @@
  
  int main()
 {
-	int a=4;
+	int a,b;
+	printf("Enter the value of a \n");
+	scanf(" %d", &a);
 	
-	float b=8.5;
+	printf("Enter the value of b \n");
+	scanf(" %d", &b);
 	
-	char c='u';
-	printf(" %c",c);
+	printf("the sum of a and b is %d", a + b);
+	return 0;
+	
+	
 }
 
 
